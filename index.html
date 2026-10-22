@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Techful — Software, SaaS &amp; Tech Consulting · Aotearoa NZ</title>
+  <meta name="description" content="Techful is a small, experienced team in Northland, New Zealand building custom software, SaaS products and offering hands-on technical consulting.">
+  <meta name="theme-color" content="#097b9d">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Techful — Software, SaaS & Tech Consulting">
+  <meta property="og:description" content="A small, experienced NZ team building custom software and SaaS, and helping businesses make better technical decisions.">
+  <meta property="og:url" content="https://techful.nz">
+  <meta property="og:image" content="https://techful.nz/assets/techful-logo.png">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..900&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Techful home">
+        <img src="assets/mark.svg" alt="" width="34" height="32">
+        <span class="wordmark">Techful</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a class="btn btn-small" href="#contact">Get in touch</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Northland, Aotearoa New Zealand</p>
+          <h1>Software, <span class="accent">built properly.</span></h1>
+          <p class="lede">
+            Techful is a small, experienced team that designs, builds and runs web software —
+            from custom applications and SaaS products to the technical advice that keeps them on track.
+          </p>
+          <div class="actions">
+            <a class="btn" href="#contact">Start a project</a>
+            <a class="btn btn-ghost" href="#services">What we do</a>
+          </div>
+          <dl class="facts">
+            <div><dt>20+</dt><dd>years on the web</dd></div>
+            <div><dt>End&#8209;to&#8209;end</dt><dd>architecture → design → build</dd></div>
+            <div><dt>NZ</dt><dd>based &amp; owned</dd></div>
+          </dl>
+        </div>
+
+        <div class="terminal" aria-hidden="true">
+          <div class="terminal-bar"><i></i><i></i><i></i><span>~/techful</span></div>
+          <pre><code><span class="c-prompt">$</span> techful --services
+<span class="c-ok">✓</span> software development
+<span class="c-ok">✓</span> saas products
+<span class="c-ok">✓</span> tech consulting
+
+<span class="c-prompt">$</span> techful --stack
+<span class="c-dim">php laravel html css js
+python postgres mysql</span>
+
+<span class="c-prompt">$</span> techful --contact
+<span class="c-key">→</span> hello@techful.nz<span class="cursor"></span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">// services</p>
+          <h2 id="services-title">What we do</h2>
+          <p>Three ways we can help — often all at once.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card">
+            <span class="card-num">01</span>
+            <h3>Software development</h3>
+            <p>Custom web applications, APIs and integrations, built to last. We work from solution architecture through design to implementation, and stick around to support what we ship.</p>
+            <ul class="tags">
+              <li>Web apps</li><li>APIs</li><li>Integrations</li><li>Laravel / PHP</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <span class="card-num">02</span>
+            <h3>SaaS products</h3>
+            <p>We build and run our own software products, and help you take yours from idea to paying customers — multi-tenant architecture, billing, onboarding and scaling.</p>
+            <ul class="tags">
+              <li>MVPs</li><li>Subscriptions</li><li>Multi-tenancy</li><li>Hosting</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <span class="card-num">03</span>
+            <h3>Tech consulting</h3>
+            <p>Straight-talking technical advice: choosing a stack, reviewing code and architecture, untangling legacy systems, or fractional technical leadership while you grow.</p>
+            <ul class="tags">
+              <li>Architecture</li><li>Code review</li><li>Fractional CTO</li><li>Audits</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="eyebrow">// work</p>
+          <h2 id="work-title">Things we've built</h2>
+          <p>Alongside client work, we publish open-source tools we use every day.</p>
+        </header>
+
+        <div class="projects">
+          <a class="project" href="https://github.com/Techful-nz/laravel-idempotency">
+            <span class="project-lang">PHP</span>
+            <h3>laravel-idempotency</h3>
+            <p>Make write requests idempotent: a repeat request returns the first successful response instead of running again.</p>
+            <span class="project-link">View on GitHub →</span>
+          </a>
+          <a class="project" href="https://github.com/tobz-nz/meili-ui">
+            <span class="project-lang">JavaScript</span>
+            <h3>meili-ui</h3>
+            <p>A super-lightweight user interface for Meilisearch.</p>
+            <span class="project-link">View on GitHub →</span>
+          </a>
+          <a class="project" href="https://github.com/tobz-nz/web-components">
+            <span class="project-lang">HTML · JS</span>
+            <h3>web-components</h3>
+            <p>Dependency-free custom elements — keyboard navigation, tabs, character counts and more. No compilers required.</p>
+            <span class="project-link">View on GitHub →</span>
+          </a>
+        </div>
+
+        <!-- TODO: dummy testimonials — replace with real client quotes before launch -->
+        <div class="quotes">
+          <figure class="quote">
+            <blockquote><p>“Techful took our idea from a whiteboard sketch to a live SaaS product in a matter of months. They asked the right questions early and saved us from a lot of expensive mistakes.”</p></blockquote>
+            <figcaption><strong>Sarah Mitchell</strong> · Founder, Kauri Bookings</figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote><p>“Our legacy system was holding the whole business back. Techful untangled it, rebuilt the critical parts and left us with code our own team actually understands.”</p></blockquote>
+            <figcaption><strong>James Ngata</strong> · Operations Manager, Northland Freight Co.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-inner">
+        <div>
+          <p class="eyebrow">// contact</p>
+          <h2 id="contact-title">Got a project in mind?</h2>
+          <p>Whether it's a new build, a product idea or a system that needs a second opinion — tell us about it. We're a small, dedicated team and we reply to every message.</p>
+        </div>
+        <div class="contact-card">
+          <a class="contact-email" href="mailto:hello@techful.nz">hello@techful.nz</a>
+          <ul class="contact-meta">
+            <li><span>Location</span> Northland, Aotearoa New Zealand</li>
+            <li><span>GitHub</span> <a href="https://github.com/Techful-nz">github.com/Techful-nz</a></li>
+          </ul>
+          <a class="btn" href="mailto:hello@techful.nz?subject=Project%20enquiry">Email us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span class="wordmark wordmark-small">Techful</span>
+      <span>© 2026 Techful Ltd · Made in Aotearoa with plain HTML &amp; CSS</span>
+    </div>
+  </footer>
+</body>
+</html>
